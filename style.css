@@ -1,0 +1,224 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Roboto Slab', serif;;
+}
+h1{
+    width: 800px;
+    font-size: 60px;
+    font-weight: bolder;  
+}
+.header-p{
+    width: 700px;
+    margin-left: 10%;
+    font-weight: 700;
+}
+
+.header{
+    width: 100%;
+    height: 700px;
+    color: aliceblue;
+    background: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.9)),url(./images/donation1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover; 
+    position: relative;
+
+}
+.caption{
+    text-align: center;
+    position: absolute;
+    top: 30%;
+    left: 25%;
+
+}
+button{
+    width: 200px;
+    border: none;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 5px;
+    background: #ff6b6b;
+    padding:20px;
+    color: white;
+    margin:30px;
+}
+.donate-button{
+    position: absolute;
+    left: 30%;
+}
+
+.donation{
+    width: 100%;
+    height: 400px;
+    position: relative;
+    text-align: center;
+    margin-top:100px; 
+}
+
+.donet-cap h2{
+    font-size: 40px;
+    font-weight: bolder;
+}
+.type-of-amount{
+    display: flex;
+    position: absolute;
+    top: 35%;
+    left: 15%;
+}
+.type1{
+    width: 120px;
+    height: 100px;
+    margin: 35px;
+    background-color: rgba(128, 128, 128, 0.144);
+    border-radius: 5px;    
+}
+.type1 h3{
+    margin: 35px auto;
+    font-size: 20px;
+    font-weight: bolder;
+}
+span{
+    color: salmon;   
+}
+#active{
+    border: 2px solid salmon;
+    background-color: rgba(250, 128, 114, 0.192);
+}
+.amount{
+    position: absolute;
+    bottom: 10%;
+    left: 27%;
+    color: grey;
+}
+hr{
+    width: 700px;
+}
+.donet-plan{
+    width: 100%;
+    height: 700px;
+    position: relative;
+    text-align: center;
+    margin-top:200px;
+}
+.donation-plan{
+    display: flex;
+    position: absolute;
+    top: 25%;
+    left: 10%; 
+}
+.plan1{
+    width: 300px;
+    height: 300px;
+    margin: 10px 20px;        
+}
+#sky{
+    text-align: left;
+    padding:30px 20px 0px 20px;
+    background-color: rgba(175, 238, 238, 0.308);
+}
+#pink{
+    text-align: left;
+    padding:30px 20px 0px 20px;
+    background-color: rgba(255, 192, 203, 0.301);
+}
+#yollow{
+    text-align: left;
+    padding:30px 20px 0px 20px;
+    background-color: rgba(245, 222, 179, 0.308);
+}
+.their-need{
+    width: 100%;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+}
+.situation{
+    width: 40%;
+    margin-right: 100px;
+}
+.image{
+    width: 40%;
+    margin-right: 100px;
+}
+.image img{
+    width: 100%;
+}
+.contribute{
+    width: 250px;
+    margin: 0px;
+}
+.volunter-sec{
+    width: 100%;
+    height: 500px;
+    text-align: center;
+}
+.volenter-list{
+    display: flex;
+    
+}
+.volenter1{
+   width: 300px;
+   height: 350px;
+   text-align:center;
+   border-radius: 5px;
+   box-shadow:3px 3px 20px grey;
+   margin:40px 40px;
+}
+.volenter1 img{
+    width: 100%;
+    height: 200px;
+}
+
+.My-update{
+    width: 100%;
+    height: 450px;
+    margin-top: 100px;
+    position: relative;
+    text-align: center;
+}
+.donet-cap p{
+    color:grey;
+}
+.subscribe-sec{
+    width: 700px;
+    height: 200px;
+    background-color: rgba(240, 230, 140, 0.459);
+    position: absolute;
+    top: 40%;
+    left: 25%;
+}
+input{
+    width: 300px;
+    height: 25px;
+    background-color: rgba(128, 128, 128, 0.548);
+    border: none;
+    outline:none;
+    border-radius: 5px 0px 0px 5px;
+    font-size: 15px;
+    margin-top: 70px;
+    padding: 10px;
+}
+.subscribe-btn{
+ 
+    font-size: 15px;
+    border-radius: 0px 5px 5px 0px;
+    background: #ff6b6b;
+    padding:14px;
+    color: white;
+    margin:-5px;
+}
+.footer-area{
+    width: 100%;
+    height: 100px;
+    background-color: rgb(9, 5, 34);
+    text-align: center;
+    padding: 20px 0px 30px 0px;
+}
+.footer-area h2{
+    color:rgba(255, 110, 85, 0.863);
+}
+.footer-area p{
+    color: white;
+ 
+}
+
